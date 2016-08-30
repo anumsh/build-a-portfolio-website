@@ -14,15 +14,10 @@ module.exports = function(grunt) {
         suffix: '_large_1x',
         quality: 30
       },{
-          width: 550,
+          width: 600,
           suffix:'_medium',
           quality:30
-      },{
-        width: 300,
-          suffix:'_small',
-          quality:30
-
-      }]
+      },]
         },
         files: [{
           expand: true,
