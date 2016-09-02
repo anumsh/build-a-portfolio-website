@@ -1,136 +1,221 @@
 <!DOCTYPE html>
-<html  lang="en">
-    <head>
-        <!-- unicode characters -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <!-- viewport -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Anum Portfolio">
-        <meta name="author" content="Anum Sharma">
-        <title>Anum Portfolio</title>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <!-- my own css file -->
-        <link rel="stylesheet" href="css/main.css">
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-        <!-- Icon Fonts -->
-        <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+<!-- this is html page from which you can view the portfolio website -->
+<html lang="en">
 
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"> </script>
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <div class="row">
-                    <div class="col-md-2 box">
-                        <img class="img-responsive" src="udacity-logo.png" alt="udacity logo">
-                    </div> <!-- col-md-2 close -->
-                    <div class="col-md-10  box text-right  text-uppercase ">
-                        <h1 class="text-primary">Anum Sharma</h1>
-                        <h4 class="text-primary">Full-Stack Novice</h4>
-                    </div> <!-- col-md-10 close -->
+<head>
+    <!-- unicode characters -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anum Portfolio">
+    <meta name="author" content="Anum Sharma">
+    <title>Anum Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- my own css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <!-- Icon Fonts -->
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js">
+    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="img-responsive png-logo" src="img/udacity-logo.png" alt="udacity logo">
                 </div>
-                </header><!--row close-->
-                <div class="row">
-                    <div class="col-md-12 navbar">
-                        <nav class="navbar navbar-inverse">
-                            <div class="container-fluid">
-                                <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
-                                        <span class="icon-bar"></span><!-- Hamburger Menu -->
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                                <div class="collapse navbar-collapse" id="navigation">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="#1">Resume</a></li>
-                                    <li><a href="#2">Movie Trailer</a></li>
-                                    <li><a href="#3">Tournament</a></li>
-                                    <li><a href="#4">Neighborhood Map</a></li>
-                                    <li><a href="#5">Configration</a></li>
-                                </ul>
-                                </div><!--collapse navbar-collapse-->
-                            </div>
-                        </nav> <!-- navbar-default close -->
-                    </div> <!-- col-md-12 -->
-                </div><!--row close-->
+                <!-- col-md-2 close -->
+                <div class="col-md-10 text-right  text-uppercase ">
+                    <h1 class="text-primary">Anum Sharma</h1>
+                    <h3 class="text-primary">Full-Stack Novice</h3>
+                </div>
+                <!-- col-md-10 close -->
+            </div>
+        </header>
+        <!--row close-->
+        <div class="row">
+            <div class="col-md-12 navbar">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <!-- Hamburger Menu -->
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#1">Resume</a></li>
+                                <li><a href="#2">Movie Trailer</a></li>
+                                <li><a href="#3">Tournament</a></li>
+                                <li><a href="#4">Neighborhood Map</a></li>
+                                <li><a href="#5">Configration</a></li>
+                            </ul>
+                        </div>
+                        <!--collapse navbar-collapse-->
+                    </div>
+                </nav>
+                <!-- navbar-default close -->
+            </div>
+            <!-- col-md-12 -->
+        </div>
+        <!--row close-->
         <main>
             <!--  main content of a document -->
             <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <!-- col-md-12 close -->
+            </div>
+            <!-- row close -->
+            <div class="row">
+                <div class="col-md-12">
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" class="center-block" srcset="dest/bodytag-1200_large_2x.jpg 2x, dest/bodytag-800_large_1x.jpg 1x" />
+                            <source media="(max-width: 749px)" class="center-block" srcset="dest/bodytag-600_medium.jpg" />
+                            <img class="img-responsive middle-img center-block" src="img/bodytag.jpg" alt="Body-tag" data-toggle="modal" data-target="#bodytag">
+                        </picture>
+                        <figcaption> The body tag contains everything else that is displayed as part of the web page.</figcaption>
+                    </figure>
+                </div>
+                <!-- col-md-12 close-->
+            </div>
+            <!--row-->
+            <section class="feature-work">
+                <div class="row">
                     <div class="col-md-12">
-                        <hr>
-                    </div> <!-- col-md-12 close -->
-            </div> <!-- row close -->
-            <div class="row text-center">
-                    <div class="col-md-12">
+                        <h2 class="text-muted text-capitalize">featured work</h2>
+                    </div>
+                    <!-- col-md-12 close -->
+                </div>
+                <!--row close -->
+            </section>
+            <section class="feature-images">
+                <div class="row images">
+                    <div class="col-md-4 col-sm-6 text-center">
                         <figure>
-                                <picture>
-                                    <source media="(min-width: 750x)" class="center-block"srcset="dest/technology-1200_large_2x.jpg 2x, dest/technology-800_large_1x.jpg 1x" />
-                                    <source media="(max-width: 749px)" class="center-block"srcset="dest/technology-600_medium.jpg" />
-                                    <img class="img-responsive middle-img" class="center-block" src="dest/technology-1200_large_2x.jpg"  alt="technology image">
-                                </picture>
-                            <figcaption> Magic of Technology </figcaption>
+                            <img class="img-responsive" src="img/art1.jpg" alt="Art" data-toggle="modal" data-target="#art">
+                            <figcaption>Art is the daughter of freedom </figcaption>
                         </figure>
-                     </div><!-- col-md-12 close-->
-            </div><!--row-->
-                <section>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="text-muted text-capitalize">featured work</h2>
-                        </div> <!-- col-md-12 close -->
-                    </div><!--row close -->
-                </section>
-
-                <div class="row text-center">
-
-                    <section>
-                        <div class="col-md-4" id="col-1">
-                            <figure>
-                                <picture>
-                                    <source media="(min-width: 750x)" class="center-block" srcset="dest/Everest-1200_large_2x.jpg 2x, dest/Everest-800_large_1x.jpg 1x" />
-                                    <source media="(max-width: 749px)" class="center-block" srcset="dest/Everest-600_medium.jpg" />
-                                    <img class="img-responsive section1-img" src="img/Everest.jpg"  alt="Mount Everest">
-                                </picture>
-                            <figcaption> Mount Everest </figcaption>
+                        <h3 class="text-uppercase">Art</h3>
+                        <a href="#">Link to project on github</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <figure>
+                            <img class="img-responsive" src="img/rainbow1.jpg" alt="Rainbow" data-toggle="modal" data-target="#rainbow">
+                            <figcaption>Try to be rainbow in someone's cloud </figcaption>
                         </figure>
-                            <h3 class="text-uppercase">Mount Everest</h3>
-                            <p><a  href="#">link</a></p>
-                        </div><!--col-->
-                    </section>
-
-                    <section>
-                        <div class="col-md-4" id="col-2">
-
-                                    <img class="img-responsive section2-img" src="img/daisy_flower.jpg"  alt="Daisy Flower">
-
-                            <h3 class="text-uppercase">Daisy Flower</h3>
-                            <p><a  href="#">link</a></p>
-                        </div><!--col-->
-                    </section>
-
-                    <section>
-                        <div class="col-md-4" id="col-3">
-                            <figure>
-                                <picture>
-                                    <source media="(min-width: 750x)" class="center-block"  srcset="dest/appify-1200_large_2x.jpg 2x, dest/appify-800_large_1x.jpg 1x" />
-                                    <source media="(max-width: 749px)" class="center-block"  srcset="dest/appify-600_medium.jpg" />
-                                    <img class="img-responsive section3-img" src="img/appify.jpg"  alt="Appify">
-                                </picture>
-                            <figcaption> Appify</figcaption>
+                        <h3 class="text-uppercase">Rainbow</h3>
+                        <a href="#">Link to project on github</a>
+                    </div>
+                    <div class="col-md-4 col-sm-6 text-center">
+                        <figure>
+                            <img class="img-responsive" src="img/bird1.jpg" alt="Blue-bird" data-toggle="modal" data-target="#bird">
+                            <figcaption>Bluebirds are one of the few thrush genera in the Americas</figcaption>
                         </figure>
-                            <h3 class="text-uppercase">Appify</h3>
-                            <p><a  href="#">link</a></p>
-                        </div><!--col-->
-                    </section>
-
-                </div><!--row-->
-
+                        <h3 class="text-uppercase">Blue Bird</h3>
+                        <a href="#">Link to project on github</a>
+                    </div>
+                </div>
+                <!--row close -->
+            </section>
         </main>
+    </div>
+    <!-- container div close -->
+    <footer class="text-center">
+        <div id="social">
+            <a href="https://twitter.com" class="zocial-twitter"></a>
+            <a href="https://www.facebook.com" class="zocial-facebook"></a>
+            <a href="https://plus.google.com" class="zocial-googleplus"></a>
+            <a href="https://www.linkedin.com" class="zocial-linkedin"></a>
         </div>
-    </body>
+    </footer>
+    <!-- Modal for bodytag image -->
+    <div class="modal fade" id="bodytag" tabindex="-1" role="dialog" aria-labelledby="bodytag-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="bodytag-modal">Body Tag </h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/bodytag.jpg" alt="bodytag">
+                    <p>Tags is the important part of Hypertext Markup language. HTML Tags give instruction a browser how to display the page content. In other words, HTML Tag is one kind of command, how and what type content will display in the browser window.</p>
+                    <p>A HTML document contains two distinct parts, the head and the body. The head contains information about the document that is not displayed on the screen. The body then contains everything else that is displayed as part of the web page.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for art  image-->
+    <div class="modal fade" id="art" tabindex="-1" role="dialog" aria-labelledby="art-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="art-modal">Art</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/art.jpg" alt="Art">
+                    <p> &#10052;Art &#10052; is such a large part of our everyday lives that we may hardly even stop to think about it. Look at the desk or table where you are, right this minute. Someone designed that. It is art. Your shoes are art.</p>
+                    <p>Our coffee cup is art. All functional design, well done, is art. So, you could say "Art is something that is both functional and (hopefully) aesthetically pleasing to our eyes."
+                        <p>You can read more from this <a href="https://en.wikipedia.org/wiki/What_Is_Art%3F">link</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for rainbow image-->
+    <div class="modal fade" id="rainbow" tabindex="-1" role="dialog" aria-labelledby="rainbow-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="rainbow-modal">Rainbow</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive modal-img" src="img/rainbow.jpg" alt="Rainbow">
+                    <p>A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multicoloured arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the sun &#9728;.</p>
+                    <p>You can read more from this <a href="https://en.wikipedia.org/wiki/Rainbow">link</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for bird image -->
+    <div class="modal fade" id="bird" tabindex="-1" role="dialog" aria-labelledby="bluebird-modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="bluebird-modal">Blue Bird</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/bird.jpg" alt="Blue-bird">
+                    <p>The &#10084; bluebirds &#10084; are a group of medium-sized, mostly insectivorous or omnivorous bird in the order of Passerines in the genus Sialia of the thrush family (Turdidae). Bluebirds are one of the few thrush genera in the Americas. They have blue, or blue and rose beige, plumage. Female birds are less brightly colored than males, although color patterns are similar and there is no noticeable difference in size between the two sexes.</p>
+                    <p>You can read more from this <a href="https://en.wikipedia.org/wiki/Bluebird">link</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
