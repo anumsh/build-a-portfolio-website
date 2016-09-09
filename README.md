@@ -12,7 +12,7 @@ This is my first portfolio project.
 * package.json
 
 
-# Installtion
+# Installation
 
 * for Ubuntu 14.04 user (installing Grunt)
 ```
