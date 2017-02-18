@@ -31,5 +31,5 @@ $ npm install grunt --save-dev
 
  #License
 
-This portfolio project  is licenced under  © 2011–2016 Udacity, Inc.
+This portfolio project  is licenced under  © 2011–2017 Udacity, Inc.
 
