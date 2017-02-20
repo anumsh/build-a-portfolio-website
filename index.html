@@ -42,33 +42,7 @@
             </div>
         </header>
         <!--row close-->
-        <div class="row">
-            <div class="col-md-12 navbar">
-                <nav class="navbar navbar-inverse">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
-                                <!-- Hamburger Menu -->
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                        </div>
-                        <div class="collapse navbar-collapse" id="navigation">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#movie">Movie Trailer</a></li>
-                                <li><a href="#blog">Multi-User-blog</a></li>
-                                <li><a href="#catalog">Item Catalog</a></li>
-                            </ul>
-                        </div>
-                        <!--collapse navbar-collapse close -->
-                    </div>
-                </nav>
-                <!-- navbar-default close -->
-            </div>
-            <!-- col-md-12 -->
-        </div>
-        <!--row close-->
+
         <main>
             <!--  main content of a document -->
             <div class="row">
@@ -105,7 +79,7 @@
                 <div class="row images">
                     <div class="col-md-4 col-sm-6 text-center">
                         <figure>
-                            <img class="img-responsive" src="img/moviewebsite.png" id="movie" data-toggle="modal" data-target="#art">
+                            <img class="img-responsive" src="img/moviewebsite-small.png" id="movie" data-toggle="modal" data-target="#art">
                             <figcaption>Movie Trailer Project </figcaption>
                         </figure>
                         <h3 class="text-uppercase">Movie Trailer</h3>
@@ -113,7 +87,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 text-center">
                         <figure>
-                            <img class="img-responsive" src="img/multi-user-blog.png" alt="blog" id="blog" data-toggle="modal" data-target="#rainbow">
+                            <img class="img-responsive" src="img/multi-user-blog-small.png" alt="blog" id="blog" data-toggle="modal" data-target="#rainbow">
                             <figcaption>Multi-User Blog </figcaption>
                         </figure>
                         <h3 class="text-uppercase">Blog</h3>
@@ -121,7 +95,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6 text-center">
                         <figure>
-                            <img class="img-responsive" src="img/item_catalog.png" alt="catalog" id="catalog" data-toggle="modal" data-target="#bird">
+                            <img class="img-responsive" src="img/item_catalog-small.png" alt="catalog" id="catalog" data-toggle="modal" data-target="#bird">
                             <figcaption>Item Catalog</figcaption>
                         </figure>
                         <h3 class="text-uppercase">Item Catalog</h3>
@@ -159,18 +133,16 @@
             </div>
         </div>
     </div>
-    <!-- Modal for art  image-->
+    <!-- Modal for movie-website image-->
     <div class="modal fade" id="art" tabindex="-1" role="dialog" aria-labelledby="art-modal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="art-modal">Art</h4>
+                    <h4 class="modal-title" id="movie">Movie Website</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="img/art.jpg" alt="Art">
-                    <p> &#10052;Art &#10052; is such a large part of our everyday lives that we may hardly even stop to think about it. Look at the desk or table where you are, right this minute. Someone designed that. It is art. Your shoes are art.</p>
-                    <p>Our coffee cup is art. All functional design, well done, is art. So, you could say "Art is something that is both functional and (hopefully) aesthetically pleasing to our eyes."
-                        <p>You can read more from this <a href="https://en.wikipedia.org/wiki/What_Is_Art%3F">link</a></p>
+                    <img class="img-responsive" src="img/moviewebsite.png" alt="Art">
+                    <p> &#10052;website &#10052; </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -178,17 +150,16 @@
             </div>
         </div>
     </div>
-    <!-- Modal for rainbow image-->
+    <!-- Modal for blog image-->
     <div class="modal fade" id="rainbow" tabindex="-1" role="dialog" aria-labelledby="rainbow-modal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="rainbow-modal">Rainbow</h4>
+                    <h4 class="modal-title" id="rainbow-modal">Blog</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive modal-img" src="img/rainbow.jpg" alt="Rainbow">
-                    <p>A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multicoloured arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the sun &#9728;.</p>
-                    <p>You can read more from this <a href="https://en.wikipedia.org/wiki/Rainbow">link</a></p>
+                    <img class="img-responsive modal-img" src="img/multi-user-blog.png" alt="blog">
+                    <p>blog </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -201,12 +172,11 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="bluebird-modal">Blue Bird</h4>
+                    <h4 class="modal-title" id="bluebird-modal">Item Catalog</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="img/bird.jpg" alt="Blue-bird">
-                    <p>The &#10084; bluebirds &#10084; are a group of medium-sized, mostly insectivorous or omnivorous bird in the order of Passerines in the genus Sialia of the thrush family (Turdidae). Bluebirds are one of the few thrush genera in the Americas. They have blue, or blue and rose beige, plumage. Female birds are less brightly colored than males, although color patterns are similar and there is no noticeable difference in size between the two sexes.</p>
-                    <p>You can read more from this <a href="https://en.wikipedia.org/wiki/Bluebird">link</a></p>
+                    <img class="img-responsive" src="img/item_catalog.png" alt="catalog">
+                    <p>item catalog </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
