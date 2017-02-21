@@ -1,0 +1,82 @@
+HOW TO RUN GRUNT		
+
+1. Install grunt.
+2. Install node.js
+3. Install npm
+4. Install grunt-cli using (npm install -g grunt-cli)
+5. check if grunt is installed using terminal ( grunt --version), similarly for node.js and npm (node.js --version and npm --version).
+6. Navigate your project folder. There should be package.json file with below details:
+
+{
+  "name": "reponsive-images",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udacity/responsive-images.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-responsive-images": "^0.1.4"
+  },
+  "dependencies": {
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
+
+6. There should be gruntfile.js .
+
+module.exports = function(grunt) {
+
+  grunt.initConfig({
+    responsive_images: {
+      dev: {
+        options: {
+          engine: 'im',
+          sizes: [{
+            width: 1200,
+            suffix: '_large_2x',
+            quality: 50
+      }, {
+        width: 800,
+            suffix: '_large_1x',
+            quality: 50
+          }, {
+
+            width: 600,
+            suffix: '_medium',
+            quality: 50
+          }
+
+      ]
+        },
+        files: [{
+          expand: true,
+          src: ['*.{gif,jpg,jpeg,png}'],
+          cwd: 'img/',
+          dest: 'dest/'
+        }]
+      }
+    },
+  });
+
+  grunt.loadNpmTasks('grunt-responsive-images');
+  grunt.registerTask('default', ['responsive_images']);
+
+};
+
+7.  We have to run 2 commands for croping the images in differnt sizes .
+
+** sudo npm install -g grunt-cli
+** grunt 
+
+your images will be crop to differnt sizes in dest folder:
+
+Running "responsive_images:dev" (responsive_images) task
+Resized 4 files for 1200
+Resized 4 files for 800
+Resized 4 files for 600
+
+Done, without errors.

@@ -1,0 +1,19 @@
+HOW TO CROP IMAGE IN GIMP	
+
+1. open the GIMP tool.
+2. from file tab, open the image.
+3. from toolbox, select crop tool and crop the image as per your requirement and press Enter.
+4. from tool options, check the fixed option and select - acpect ratio.
+5. set the aspect ratio as 1:1 in box and select landscape option for image .
+ crop-->fixed --> aspect-ratio
+6. Your Image size should 100%. 
+7. go to Image--> Scale Image and set the width and height size.
+
+ width- 300
+ height-300
+ X-resolution-72.000
+ Y-resolution-72.000
+
+8. Press the scale button.
+9. from file tab , select export as option to save the file.
+10. Choose the quality of image and give a name to image and save it. 
