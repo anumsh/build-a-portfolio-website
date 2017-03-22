@@ -1,0 +1,83 @@
+html {
+    background: #292a2b;
+    color: #FFF;
+}
+
+.box-width {
+    height: 50px;
+    background: #e78629;
+}
+
+
+// ========================================
+// Demo
+// ========================================
+
+.viewport {
+    outline: 1px solid #ed862a;
+    .box-width.percentage {
+        width: 100%; // %
+    }
+  .box-width.pixel {
+        width: 200px; // px
+    }
+    .box-width.em {
+        width: 20em; // em
+    }
+    .box-width.em {
+        width: 20rem; // rem
+    }
+}
+
+
+// ========================================
+// Container 480px
+// ========================================
+
+.container {
+    outline: 1px solid #ed862a;
+    width: 500px;
+    .box-width.percentage-half {
+        width: 50%; // half %
+    }
+    .box-width.percentage-full {
+        width: 100%; // full %
+    }
+    .box-width.pixel {
+        width: 200px; // px
+    }
+    .box-width.em {
+        width: 20em; // em
+    }
+    .box-width.em {
+        width: 20rem; // rem
+    }
+}
+
+
+// ========================================
+// Table Rows and Row Groups
+// ========================================
+
+.absolute-position {
+  position: relative;
+  .box-width.no-width { // width is calculated based on content
+    outline: 1px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+// ========================================
+// Table Rows and Row Groups
+// ========================================
+
+.box-width.row-percent {
+    width: 50%;
+}
+
+.box-width.row-em {
+    width: 20em;
+}
