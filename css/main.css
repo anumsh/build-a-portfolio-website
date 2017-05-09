@@ -40,7 +40,7 @@ a:hover [class*="zocial-"]:before {
 
 .container {
     margin-top: 1em;
-    background:#E6E6E6;
+    background:#F7F9F9;
 }
 
 
@@ -67,16 +67,23 @@ hr {
 }
 
 h1 {
-    font-weight: lighter;
+    /* font-weight: lighter; */
     margin-bottom: 5px;
     font-size: 3em;
+    color:#839192;
 }
 
 h3 {
     font-size: 1.5em;
-    font-weight: normal;
+    /* font-weight: normal; */
     margin-top: 0.5em;
-    color: #f13c15;
+    color: #839192;
+}
+.heading {
+  font-size: 1.5em;
+  /* font-weight: normal; */
+  margin-top: 0.5em;
+  color: #CA6F1E;
 }
 
 h4 {
