@@ -4,7 +4,7 @@
 /* this is the font zocial style for setting facebook ,twitter, github icon on webpage */
 
 [class*="zocial-"]:before {
-    color: blue;
+    color: #E4842E;
     display: inline-block;
     font-family: 'zocial', sans-serif;
     text-shadow: 3px 3px 3px #aaa;
@@ -35,12 +35,17 @@ a:hover [class*="zocial-"]:before {
     box-sizing: border-box;
 }
 
+body {
+  background-image: url(img/back.jpg);
+}
 
 /* setting the margin for contaniner class (bootstrap grid system) */
 
 .container {
     margin-top: 1em;
-    background:#F7F9F9;
+
+   background:#161617    ;
+
 }
 
 
@@ -101,13 +106,13 @@ h2 {
 }
 
 a {
-    color: #4142c4;
+    color: #ffffcc;
     font-weight: 300;
     text-align: center;
 }
 
 a:hover {
-    color: #5191cc;
+    color: #E4842E  ;
     text-decoration: underline;
 }
 
@@ -163,4 +168,5 @@ this will set the margin-bottom of row named images
 footer {
     height: 30px;
     margin-top: 1em;
+    /*background-color: #E4842E  ; */
 }
