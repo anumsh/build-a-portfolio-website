@@ -35,9 +35,7 @@ a:hover [class*="zocial-"]:before {
     box-sizing: border-box;
 }
 
-body {
-  background-image: url(img/back.jpg);
-}
+
 
 /* setting the margin for contaniner class (bootstrap grid system) */
 
