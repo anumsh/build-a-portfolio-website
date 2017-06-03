@@ -4,7 +4,7 @@
 /* this is the font zocial style for setting facebook ,twitter, github icon on webpage */
 
 [class*="zocial-"]:before {
-    color: #E4842E;
+    color: #E13220  ;
     display: inline-block;
     font-family: 'zocial', sans-serif;
     text-shadow: 3px 3px 3px #aaa;
@@ -42,7 +42,7 @@ a:hover [class*="zocial-"]:before {
 .container {
     margin-top: 1em;
 
-   background:#F3EAE8     ;
+   background:#26343D         ;
 
 }
 
@@ -73,20 +73,20 @@ h1 {
     /* font-weight: lighter; */
     margin-bottom: 5px;
     font-size: 3em;
-    color:#839192;
+    color:#F1F4F6  ;
 }
 
 h3 {
     font-size: 1.5em;
     /* font-weight: normal; */
     margin-top: 0.5em;
-    color: #839192;
+    color: #F1F4F6  ;
 }
 .heading {
   font-size: 1.5em;
   /* font-weight: normal; */
   margin-top: 0.5em;
-  color: #CA6F1E;
+  color: #4AACEC  ;
 }
 
 h4 {
@@ -104,13 +104,13 @@ h2 {
 }
 
 a {
-    color: #ffffcc;
+    color: #6B889A;
     font-weight: 300;
     text-align: center;
 }
 
 a:hover {
-    color: #E4842E  ;
+    color: #E13220   ;
     text-decoration: underline;
 }
 
